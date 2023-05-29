@@ -1,0 +1,87 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.so
+*.egg-info/
+dist/
+*.egg
+*.log
+*.pot
+*.py[co]
+*.spec
+
+# Environments
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Spyder
+.spyderproject
+.spyproject
+.spyproject/workspace.ini
+
+# Docker
+Dockerfile
+.dockerignore
+.docker/
+*.dockerfile
+
+# Data
+*.csv
+*.xlsx
+*.sqlite3
+photos/
+videos/
+
+# Logs
+logs/
+
+# Cache
+*.cache/
+
+# macOS
+.DS_Store
+*.swp
+*.swo
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+
+# Others
+*.bak
+*.tmp
+*.temp
+*.swp
+*.swo
+*.orig
+*.rej
+*.swn
+*.swo
+*.swn
+*.patch
+*.diff
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
