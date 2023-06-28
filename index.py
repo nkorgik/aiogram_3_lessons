@@ -10,18 +10,12 @@ dp = Dispatcher()
 
 @dp.message(Command('start'))
 async def cmd_start(msg: types.Message) -> None:
-    """Handles start command"""
-    
-    reply_text = 'Hello World!'
-    
     await msg.answer(
-        text=reply_text
+        text='Hello World!'
     )
 
 
 async def main() -> None:
-    """Entry Point to our program"""
-    
     await dp.start_polling(bot)
 
 
